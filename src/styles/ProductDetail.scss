@@ -1,0 +1,27 @@
+
+
+.container {
+    // min-height: 100vh;
+}
+
+.navbar {
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.contentInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    gap: 30px;
+    >div {
+        flex: 1;
+    }
+    > div:first-child {
+        flex: 3;
+    }
+    > div:nth-child(2){
+        flex: 2;
+    }
+
+}

@@ -1,0 +1,28 @@
+
+
+
+.contentComment {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+   > div {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #CACACA;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    > p {
+        font-weight: bold;
+        margin: auto;
+    }
+    > img {
+        height: 100%;
+        width: 100%;
+    }
+   }
+}

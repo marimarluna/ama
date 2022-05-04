@@ -1,0 +1,40 @@
+.container {
+    text-align: left;
+    padding: 20px;
+    color: #333333
+}
+
+.title {
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    >h1 {
+        white-space: pre-wrap;
+        overflow: hidden;
+        font-size: 28px;
+        margin: 0;
+    }
+
+    >p {
+        margin: 0;
+        font-size: 14px;
+        color: #0E7184;
+    }
+
+}
+
+.divider {
+    opacity: 0.5;
+}
+
+.description {
+    >h5 {
+        font-size: 18px;
+    }
+
+    >p {
+        font-size: 14px;
+    }
+}

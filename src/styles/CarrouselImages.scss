@@ -1,0 +1,32 @@
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentThumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+    > img {
+        width: 60px;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        object-fit: contain;
+    }
+}
+
+.active {
+    border: 2px solid #F0AD64 !important;
+}
+
+.contentActive {
+    flex: 8;
+    img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+}

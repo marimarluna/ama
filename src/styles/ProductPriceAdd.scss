@@ -1,0 +1,44 @@
+.priceDisplay {
+    >h2 {
+        color: #AF2913;
+    }
+}
+
+.contentPriceAdd {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 4px;
+    max-width: 200px;
+}
+
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.buttonWithIcon {
+    border: none;
+    background-color: #F3D184;
+    border-radius: 5px;
+    width: 184px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    p {
+        margin: 0;
+        flex: 1;
+    }
+    svg {
+        background-color: #565959;
+        color: white;
+        border-radius: 3px;
+    }
+}
+.buttonWithIcon2 {
+    @extend .buttonWithIcon;
+    background-color: #F0AD64;
+}
