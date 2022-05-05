@@ -1,6 +1,7 @@
 import React from 'react'
 
-function RouteAuth() {
+function RouteAuth({props}) {
+    
   return (
     <div>RouteAuth</div>
   )
